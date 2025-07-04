@@ -63,6 +63,13 @@ fun GameScreen() {
                 }
             }
     ) {
+        /* Add pictures as game background in here
+        Image(
+            painter = painterResource(R.drawable.ball_game_image),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.matchParentSize(),
+        )  */
         Canvas(modifier = Modifier.fillMaxSize()) {
             canvasHeightState.value = size.height
 
